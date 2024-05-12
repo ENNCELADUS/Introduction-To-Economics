@@ -1,10 +1,10 @@
 # Fdb version 4
-["xdvipdfmx"] 1714390052.87559 "edition1.xdv" "edition1.pdf" "edition1" 1714390054.00053 0
-  "edition1.xdv" 1714390052 194416 7536bf6b6f7ee8c53e0240e78c517afd "xelatex"
+["xdvipdfmx"] 1715533398.97902 "edition1.xdv" "edition1.pdf" "edition1" 1715533400.31586 0
+  "edition1.xdv" 1715533398 223268 794e21b54544760ff3989e1bf314303a "xelatex"
   (generated)
   "edition1.pdf"
   (rewritten before read)
-["xelatex"] 1714390050.87491 "e:/RICHARD/经济学导论/Introduction-To-Economics/notes/edition1.tex" "edition1.xdv" "edition1" 1714390053.99034 0
+["xelatex"] 1715533396.50956 "e:/RICHARD/经济学导论/Introduction-To-Economics/notes/edition1.tex" "edition1.xdv" "edition1" 1715533400.30355 0
   "AFC.png" 1712565197 72603 28c6f79ab20e422e552faf3029528307 ""
   "ATC.png" 1712565871 119816 1b1f5bca56bab1bb64e61fb93751c951 ""
   "AVC.png" 1712565265 104749 e9c47829a049f804d79a5e823ba8e29f ""
@@ -198,10 +198,11 @@
   "D:/LaTeX/tex/xelatex/xecjk/xeCJK.sty" 1659726270 183137 ed372550124703b2b73cbcc0b47cb20f ""
   "D:/LaTeX/tex/xelatex/xecjk/xeCJKfntef.sty" 1659726270 39577 b470f8a1dbecc9c45c9bf05ca7db9188 ""
   "MC.png" 1712565801 169453 c233808d2ee302c280a282084d8a38ec ""
-  "e:/RICHARD/经济学导论/Introduction-To-Economics/notes/edition1.tex" 1714390048 34739 1118ebcd7e206fcd9c0e3d87a6718d66 ""
-  "edition1.aux" 1714390052 15020 4bbcfd05eb49a1ea98ef7414f7ff81c4 "xelatex"
-  "edition1.out" 1714390052 8891 66a856f095821de71d209f463b2884c2 "xelatex"
-  "edition1.tex" 1714390048 34739 1118ebcd7e206fcd9c0e3d87a6718d66 ""
+  "e:/RICHARD/经济学导论/Introduction-To-Economics/notes/edition1.tex" 1715533109 39905 9b34c71740b4954f7a9bf63b055042dd ""
+  "edition1.aux" 1715533398 17426 f7a803beeb9e7fdf4959d54b134804c8 "xelatex"
+  "edition1.out" 1715533398 10406 8c4bbcc599aaece85447e6ccdbbbf254 "xelatex"
+  "edition1.tex" 1715533109 39905 9b34c71740b4954f7a9bf63b055042dd ""
+  "长期供给曲线.png" 1715532275 151419 e950280eb0b590c28dfeef456a3dcd50 ""
   "长期平均总成本.png" 1713714650 53547 9fda3fbbf10e5cb4b805092665d03ca7 ""
   "成本函数.png" 1712565030 122776 8e3f0c23cacafc799fc8cb59bee16c32 ""
   "成本与供给曲线.png" 1711353710 51305 d37bd6779dccdaeacb23252987d75a57 ""
@@ -209,6 +210,7 @@
   "大量卖者的生产者剩余.png" 1711884912 71687 ad5b11392f1bfbbd6c3750a07397c3fd ""
   "弹性大，无谓损失大.png" 1711886149 189403 7692bb449d185e60560561c67778f58f ""
   "弹性小，无谓损失小.png" 1711886042 191490 ca167aedf038bb34dc15d1cbde527ff9 ""
+  "短期决策.png" 1715531825 95057 ee82dc56aecfe1a19cd3297c21e74aa5 ""
   "负外部性.png" 1711955866 162717 b9ce78c94d788392c4c5eaa3446dcf3f ""
   "富有弹性的需求.png" 1711860713 231230 5e538e0664325128d2949fa0028bc603 ""
   "各种成本曲线.png" 1712567711 129553 f71c2edb8da8cb6fa078b31fa38a8f46 ""
@@ -219,11 +221,14 @@
   "价格上限.png" 1711351405 46786 3f8721872401ae4fef99ddd41093160a ""
   "价格下限.png" 1711351617 48463 dc68a4a5c5240fb7ad974cfed366210e ""
   "经济利润与会计利润.png" 1712561983 86998 3ddc6e925183da9df61ea1838afad0b2 ""
+  "竞争企业的利润.png" 1715532531 162260 c30b482911971cd273bbbe91a1e0ecca ""
+  "竞争企业的损失.png" 1715532646 142502 6aad261947ca42c7722383d40f640080 ""
   "均衡.png" 1711857966 129625 ba94d885e9e895e8e4c66f93f7e964bf ""
   "均衡分析.png" 1711858313 80946 1589f9c9f1d4dace68392080161e94ff ""
   "拉弗曲线.png" 1711886504 160152 23c2b6b39df5956ff46018a1a32a3dea ""
   "贸易的好处.png" 1711805644 105170 f45cd915b5d18c7213cf56d8239161d7 ""
   "没有税收时的总福利.png" 1711357868 76128 bb5c321920f204be8bf4d8fbe377507f ""
+  "囚徒困境.png" 1714980165 118448 f8b325b7e3a8484911fc98ca4fdc3d1e ""
   "缺乏弹性的需求.png" 1711860691 227433 cb0118b9b031bbf1a606e984c99891c8 ""
   "生产函数.png" 1712563010 101440 c72ce78b42dba743e9a63127bef9ac41 ""
   "生产可能性边界.png" 1711197137 68516 7ae05779b64da05719dee83b7b78e996 ""
@@ -233,6 +238,7 @@
   "税收大.png" 1711886447 117471 3a1cfad4ffe4b12875708b261274e227 ""
   "税收规模与无谓损失.png" 1711886246 72560 bca4889a333b4e67caa2b2769bc96c0a ""
   "税收小.png" 1711886368 115529 87559fac10339725bd5acc8d43ef2fe8 ""
+  "完全竞争市场的企业利润最大化.png" 1715530655 49740 9864d2db6f284faf0d24ccffa78c95b9 ""
   "消费者剩余.png" 1711883239 221922 3498e876f32ef2766d8b0eb08d4fea95 ""
   "需求曲线.png" 1711807594 52215 8a0bcdb5b5ea917e9ca68e95f4018a0d ""
   "需求曲线的移动.png" 1711807778 71456 45508073e55936a05760ab7cf397a3e5 ""
