@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 24.1) (preloaded format=xelatex 2024.3.18)  13 MAY 2024 01:03
+This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 24.1) (preloaded format=xelatex 2024.3.18)  13 MAY 2024 14:25
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -906,10 +906,16 @@ File: 竞争企业的利润.png Graphic file (type bmp)
 <竞争企业的利润.png>
 File: 竞争企业的损失.png Graphic file (type bmp)
 <竞争企业的损失.png>
- [35] [36] [37]
+ [35]
+File: 短期市场供给曲线.png Graphic file (type bmp)
+<短期市场供给曲线.png>
+ [36]
+File: 长期竞争市场供给曲线.png Graphic file (type bmp)
+<长期竞争市场供给曲线.png>
+ [37] [38] [39]
 File: 囚徒困境.png Graphic file (type bmp)
 <囚徒困境.png>
- [38] (edition1.aux)
+ [40] (edition1.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2022/08/05>
@@ -919,15 +925,15 @@ L3 programming layer <2022/08/05>
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `edition1.out' has not changed.
-(rerunfilecheck)             Checksum: 8C4BBCC599AAECE85447E6CCDBBBF254;10406.
+(rerunfilecheck)             Checksum: 0AD2020EA275C60E827EBFF64E0FEB56;10990.
  ) 
 Here is how much of TeX's memory you used:
- 35008 strings out of 409617
- 864615 string characters out of 5781321
- 1946191 words of memory out of 5000000
- 56567 multiletter control sequences out of 15000+600000
- 564009 words of font info for 87 fonts, out of 8000000 for 9000
+ 35039 strings out of 409617
+ 865634 string characters out of 5781321
+ 1945191 words of memory out of 5000000
+ 56595 multiletter control sequences out of 15000+600000
+ 564017 words of font info for 88 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  99i,6n,107p,780b,479s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on edition1.xdv (38 pages, 223268 bytes).
+Output written on edition1.xdv (40 pages, 250336 bytes).

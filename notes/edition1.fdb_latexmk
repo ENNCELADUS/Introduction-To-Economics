@@ -1,10 +1,10 @@
 # Fdb version 4
-["xdvipdfmx"] 1715533398.97902 "edition1.xdv" "edition1.pdf" "edition1" 1715533400.31586 0
-  "edition1.xdv" 1715533398 223268 794e21b54544760ff3989e1bf314303a "xelatex"
+["xdvipdfmx"] 1715581528.32326 "edition1.xdv" "edition1.pdf" "edition1" 1715581530.17138 0
+  "edition1.xdv" 1715581528 250336 55428a0256e27e7069decdde174bc927 "xelatex"
   (generated)
   "edition1.pdf"
   (rewritten before read)
-["xelatex"] 1715533396.50956 "e:/RICHARD/经济学导论/Introduction-To-Economics/notes/edition1.tex" "edition1.xdv" "edition1" 1715533400.30355 0
+["xelatex"] 1715581524.69028 "e:/RICHARD/经济学导论/Introduction-To-Economics/notes/edition1.tex" "edition1.xdv" "edition1" 1715581530.14758 0
   "AFC.png" 1712565197 72603 28c6f79ab20e422e552faf3029528307 ""
   "ATC.png" 1712565871 119816 1b1f5bca56bab1bb64e61fb93751c951 ""
   "AVC.png" 1712565265 104749 e9c47829a049f804d79a5e823ba8e29f ""
@@ -198,11 +198,12 @@
   "D:/LaTeX/tex/xelatex/xecjk/xeCJK.sty" 1659726270 183137 ed372550124703b2b73cbcc0b47cb20f ""
   "D:/LaTeX/tex/xelatex/xecjk/xeCJKfntef.sty" 1659726270 39577 b470f8a1dbecc9c45c9bf05ca7db9188 ""
   "MC.png" 1712565801 169453 c233808d2ee302c280a282084d8a38ec ""
-  "e:/RICHARD/经济学导论/Introduction-To-Economics/notes/edition1.tex" 1715533109 39905 9b34c71740b4954f7a9bf63b055042dd ""
-  "edition1.aux" 1715533398 17426 f7a803beeb9e7fdf4959d54b134804c8 "xelatex"
-  "edition1.out" 1715533398 10406 8c4bbcc599aaece85447e6ccdbbbf254 "xelatex"
-  "edition1.tex" 1715533109 39905 9b34c71740b4954f7a9bf63b055042dd ""
+  "e:/RICHARD/经济学导论/Introduction-To-Economics/notes/edition1.tex" 1715581518 44827 d2414e633d18361e9971f649a4ba7847 ""
+  "edition1.aux" 1715581528 18324 31cf063d30ef9d13b8b8d46d1ece570e "xelatex"
+  "edition1.out" 1715581528 10990 0ad2020ea275c60e827ebff64e0feb56 "xelatex"
+  "edition1.tex" 1715581518 44827 d2414e633d18361e9971f649a4ba7847 ""
   "长期供给曲线.png" 1715532275 151419 e950280eb0b590c28dfeef456a3dcd50 ""
+  "长期竞争市场供给曲线.png" 1715568537 235148 d527bc703c9db758b7d9c57b48bc389d ""
   "长期平均总成本.png" 1713714650 53547 9fda3fbbf10e5cb4b805092665d03ca7 ""
   "成本函数.png" 1712565030 122776 8e3f0c23cacafc799fc8cb59bee16c32 ""
   "成本与供给曲线.png" 1711353710 51305 d37bd6779dccdaeacb23252987d75a57 ""
@@ -211,6 +212,7 @@
   "弹性大，无谓损失大.png" 1711886149 189403 7692bb449d185e60560561c67778f58f ""
   "弹性小，无谓损失小.png" 1711886042 191490 ca167aedf038bb34dc15d1cbde527ff9 ""
   "短期决策.png" 1715531825 95057 ee82dc56aecfe1a19cd3297c21e74aa5 ""
+  "短期市场供给曲线.png" 1715567345 225106 bf666aa86124f4e9e2a4769f13f75b73 ""
   "负外部性.png" 1711955866 162717 b9ce78c94d788392c4c5eaa3446dcf3f ""
   "富有弹性的需求.png" 1711860713 231230 5e538e0664325128d2949fa0028bc603 ""
   "各种成本曲线.png" 1712567711 129553 f71c2edb8da8cb6fa078b31fa38a8f46 ""
