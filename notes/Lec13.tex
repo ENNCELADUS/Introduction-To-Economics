@@ -1,0 +1,236 @@
+\documentclass[12pt, a4paper]{article}
+
+% Geometry and spacing
+\usepackage[margin=0.7in]{geometry}
+\usepackage{setspace}
+\setstretch{1.5}
+
+% Fonts and language settings
+\usepackage{fontspec}
+\usepackage{xeCJK}
+\setmainfont{Times New Roman}
+\setCJKmainfont{SimSun} % 设置中文字体为宋体（SimSun）
+
+% Math and graphics
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{float}
+
+% Hyperlinks
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=cyan,
+}
+
+% Section titles spacing
+\usepackage{titlesec}
+\titlespacing*{\section}{0pt}{*1}{*1}
+\titlespacing*{\subsection}{0pt}{*1}{*1}
+
+
+\title{Lecture 13: Money and Prices in the Long Run}
+\author{}
+\date{}
+
+\begin{document}
+\maketitle
+
+\section{货币制度}
+
+\subsection{货币的含义与职能}
+\begin{itemize}
+    \item 货币：经济中人们经常用于向他人购买物品与服务的一组资产。
+    \item 货币的职能：
+    \begin{itemize}
+        \item 交换媒介：买者在购买物品与劳务时给予卖者的东西。
+        \item 计价单位：人们用来表示价格和记录债务的标准。
+        \item 价值储藏手段：把现在的购买力转变为未来的购买力。
+    \end{itemize}
+\end{itemize}
+
+\subsection{货币供给}
+\begin{itemize}
+    \item 货币供给：经济中流通的货币量。
+    \item 组成部分：
+    \begin{itemize}
+        \item 通货：公众手中持有的纸币钞票和铸币。
+        \item 活期存款：储户可以随时支取的银行账户余额。
+    \end{itemize}
+\end{itemize}
+
+\subsection{银行与货币供给}
+\begin{itemize}
+    \item 部分准备金银行制度：银行将部分存款作为准备金，其他用于贷款。
+    \item 准备金率\( R \)等于准备金占所有存款的比例。
+    \item 货币乘数：银行体系用1美元准备金所产生的货币量，货币乘数等于 \( \frac{1}{R} \)。
+\end{itemize}
+
+
+\subsection{央行控制货币供给的三种工具}
+
+\subsubsection{公开市场操作}
+\begin{itemize}
+    \item \textbf{定义}：央行通过买卖政府债券来调节货币供给。
+    \item \textbf{增加货币供给}：
+    \begin{itemize}
+        \item 央行购买政府债券。
+        \item 购买政府债券时，央行向市场注入货币。
+        \item 这些新增的货币存入银行，增加银行准备金。
+        \item 银行用新增的准备金发放更多贷款，进一步增加货币供给。
+    \end{itemize}
+    \item \textbf{减少货币供给}：
+    \begin{itemize}
+        \item 央行出售政府债券。
+        \item 出售政府债券时，央行从市场收回货币，减少流通中的货币量。
+    \end{itemize}
+\end{itemize}
+
+\subsubsection{法定准备金}
+\begin{itemize}
+    \item \textbf{定义}：央行规定银行必须持有的准备金比例。
+    \item \textbf{增加货币供给}：
+    \begin{itemize}
+        \item 央行降低法定准备金比例。
+        \item 银行可以用每一元准备金发放更多的贷款。
+        \item 增加货币乘数与货币供给。
+    \end{itemize}
+    \item \textbf{减少货币供给}：
+    \begin{itemize}
+        \item 央行提高法定准备金比例。
+        \item 银行必须持有更多的准备金，减少可用于贷款的资金。
+        \item 减少货币乘数与货币供给。
+    \end{itemize}
+    \item \textbf{注意}：
+    \begin{itemize}
+        \item 央行很少频繁改变法定准备金，因为频繁改变会干扰银行业务。
+    \end{itemize}
+\end{itemize}
+
+\subsubsection{贴现率}
+\begin{itemize}
+    \item \textbf{定义}：央行向商业银行发放贷款的利率。
+    \item \textbf{增加货币供给}：
+    \begin{itemize}
+        \item 央行降低贴现率。
+        \item 鼓励银行向央行借入更多的贷款。
+        \item 银行获得更多准备金，可以发放更多贷款，增加货币供给。
+    \end{itemize}
+    \item \textbf{减少货币供给}：
+    \begin{itemize}
+        \item 央行提高贴现率。
+        \item 银行借款成本上升，减少向央行借款。
+        \item 银行准备金减少，减少贷款发放，降低货币供给。
+    \end{itemize}
+    \item \textbf{注意}：
+    \begin{itemize}
+        \item 在没有金融危机的情况下，央行很少使用贴现贷款，因为央行是“最后贷款人”。
+    \end{itemize}
+\end{itemize}
+
+\subsubsection{联邦基金利率}
+\subsection*{定义}
+联邦基金利率是指银行之间进行隔夜贷款时的利率。在一天结束时，如果银行发现自己的准备金不足，可以向其他有超额准备金的银行借款，这种贷款的利率就是联邦基金利率。在中国，这种利率被称为同业拆借利率或隔夜拆借利率。
+
+\subsection*{期限}
+虽然称为隔夜拆借利率，但实际上这种贷款可以有不同的期限，如1天、3天、6天、1个月、3个月和6个月等。但一般来说，贷款期限不会超过6个月。由于时间都很短，所以被统称为隔夜拆借。
+
+\subsection*{央行的作用}
+央行通过公开市场操作来控制联邦基金利率。具体做法如下：
+\begin{itemize}
+    \item \textbf{降低联邦基金利率}：央行购买政府债券，向市场注入货币，增加银行体系中的准备金。当准备金供给增加时，银行之间借款的需求减少，从而降低联邦基金利率。
+    \item \textbf{提高联邦基金利率}：央行出售政府债券，从市场回收货币，减少银行体系中的准备金。当准备金供给减少时，银行之间借款的需求增加，从而提高联邦基金利率。
+\end{itemize}
+
+\subsection*{联邦基金利率的重要性}
+联邦基金利率是一个重要的经济指标，因为它会影响许多其他利率，如商业贷款利率、消费贷款利率等。许多利率互相之间是高度关联的，因此联邦基金利率的改变会导致其他利率的改变，并对整个经济产生重大影响。
+
+\subsection*{快问快答}
+\begin{itemize}
+    \item \textbf{联邦基金利率与贴现率有什么不同？}
+    \begin{itemize}
+        \item 联邦基金利率是银行之间进行隔夜贷款的利率。
+        \item 贴现率是央行向商业银行发放贷款的利率。
+    \end{itemize}
+    \item \textbf{央行如何通过公开市场操作钉住其确定的联邦基金利率？}
+    \begin{itemize}
+        \item 央行通过买卖政府债券来调节银行体系中的准备金供给，从而影响联邦基金利率。
+        \item 例如，为使联邦基金利率上升，央行会出售政府债券，减少银行体系中的准备金供给，从而增加银行之间的借款需求，导致联邦基金利率上升。
+    \end{itemize}
+\end{itemize}
+
+\subsection*{图示说明}
+假设央行希望提高联邦基金利率，过程如下：
+\begin{itemize}
+    \item 央行出售政府债券。
+    \item 银行体系中的准备金减少，联邦基金的供给减少。
+    \item 导致联邦基金利率上升。
+
+% \begin{figure}[H]
+%     \centering
+%     \includegraphics[width=0.8\textwidth]{fed_funds_rate.png}
+%     \caption{联邦基金市场}
+% \end{figure}
+
+在图中，供给曲线 \( S \) 从 \( S1 \) 移动到 \( S2 \)，使得均衡利率从 \( F1 \) 上升到 \( F2 \)。
+\end{itemize}
+
+
+\section{货币增长与通货膨胀}
+
+\subsection{货币数量论}
+\begin{itemize}
+    \item 货币数量论：认为货币数量决定货币价值。
+    \item 数量方程式： \( M \times V = P \times Y \)
+    \begin{itemize}
+        \item \( M \) 为货币供给。
+        \item \( V \) 为货币流通速度。
+        \item \( P \) 为物价水平。
+        \item \( Y \) 为真实GDP。
+    \end{itemize}
+\end{itemize}
+
+\subsection{古典二分法和货币中性}
+\begin{itemize}
+    \item 古典二分法：名义变量和真实变量的理论区分。
+    \item 货币中性：货币的变动不影响真实变量。
+\end{itemize}
+
+\subsection{通货膨胀的成本}
+\begin{itemize}
+    \item 皮鞋成本：人们减少货币持有量时所浪费的资源。
+    \item 菜单成本：改变价格的成本。
+    \item 相对价格波动与资源配置不当：通货膨胀扭曲相对价格。
+    \item 税收扭曲：通货膨胀使名义收入比真实收入增长得更快。
+    \item 混乱与不方便：通货膨胀改变了衡量经济交易的尺度。
+    \item 任意的财富再分配：高于预期的通货膨胀将购买力从债权人向债务人转移。
+\end{itemize}
+
+\section{课堂练习}
+\begin{enumerate}
+    \item 情形1: 你打扫房间时在沙发坐垫下找到一张50美元的钞票。你把钱存入活期储蓄账户，央行规定的法定存款准备金率是20\%。
+    \begin{itemize}
+        \item 货币供给量增加的最大数量是多少 \[ 50 \times \frac{1}{0.2} = 250, 250 - 50 = 200 \]
+        \item 货币供给量增加的最小数量是多少？\( 50 - 50 = 0 \)
+    \end{itemize}
+
+    \item 情形2: 计算2009年的名义GDP和P，并计算从2008年到2009年的通货膨胀率（价格上涨的比例）。假设技术进步使2009年的产出Y增加到824，计算从2008年到2009年的通货膨胀率。
+    \begin{itemize}
+        \item 已知：2008年 \( Y = 800 \), \( V \) 不变, \( MS = \$2000 \) ，\( P = \$5 \)
+        \item 2009年，央行货币供给增加5\%，增加到2100美元
+    \end{itemize}
+
+    \item 你在银行存款1000美元，期限为一年。
+    \begin{itemize}
+        \item 情形 1:  通货膨胀率 = 0\%，名义利率 = 10\%
+        \item 情形 2:  通货膨胀率 = 10\%，名义利率 = 20\%
+        \begin{enumerate}
+            \item 在哪种情形中，你存款的真实价值增长的更快？
+            \item 假定税率为25\%，在哪种情形中，你纳税最多？
+            \item 计算税后名义利率，然后减去通货膨胀率计算两种情形的税后真实利率。
+        \end{enumerate}
+    \end{itemize}
+\end{enumerate}
+
+\end{document}

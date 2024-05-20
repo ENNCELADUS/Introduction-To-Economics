@@ -1,0 +1,146 @@
+\documentclass[12pt, a4paper]{article}
+
+% Geometry and spacing
+\usepackage[margin=0.7in]{geometry}
+\usepackage{setspace}
+\setstretch{1.5}
+
+% Fonts and language settings
+\usepackage{fontspec}
+\usepackage{xeCJK}
+\setmainfont{Times New Roman}
+\setCJKmainfont{SimSun} % 设置中文字体为宋体（SimSun）
+
+% Math and graphics
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{float}
+
+% Hyperlinks
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=cyan,
+}
+
+% Section titles spacing
+\usepackage{titlesec}
+\titlespacing*{\section}{0pt}{*1}{*1}
+\titlespacing*{\subsection}{0pt}{*1}{*1}
+
+
+\title{Lecture 12: Macroeconomic Data}
+\author{}
+\date{}
+
+\begin{document}
+\maketitle
+
+% Chapter 11
+\section*{I. 什么是宏观经济学？}
+\subsection*{微观经济学 vs. 宏观经济学}
+\begin{itemize}
+    \item \textbf{微观经济学 (microeconomics)}: 研究经济活动中个体（企业或家庭）的行为及后果。
+    \item \textbf{宏观经济学 (macroeconomics)}: 研究一国的整体经济运行及政府运用经济政策来影响经济运行。
+\end{itemize}
+
+\begin{table}[h]
+    \centering
+    \begin{tabular}{|l|l|l|}
+        \hline
+        & \textbf{微观经济学} & \textbf{宏观经济学} \\
+        \hline
+        基本假设 & 市场出清、完全理性与信息流通 & 市场失灵（需求不足、存在失业） \\
+        \hline
+        研究对象 & 单个经济单位：家庭/个人，企业 & 整个国民经济 \\
+        \hline
+        研究方法 & 个量分析：商品或要素价格、数量 & 总量分析：总价格水平、总数量 \\
+        \hline
+        研究重点 & 市场价格 & 国民总产出/总收入 \\
+        \hline
+        研究目的 & 优化配置资源 & 充分利用资源 \\
+        \hline
+        争议大小 & 较小 & 较大 \\
+        \hline
+    \end{tabular}
+    \caption{微观经济学 vs. 宏观经济学}
+\end{table}
+
+\subsection*{宏观经济学研究问题}
+\begin{itemize}
+    \item 长期经济增长 (economics growth)
+    \item 经济周期 (business cycle)
+    \item 失业 (unemployment)
+    \item 通货膨胀 (inflation)
+    \item 宏观经济政策 (policies)
+\end{itemize}
+
+\section*{II. 一国收入（经济总量）的衡量}
+\subsection*{经济的收入与支出}
+\begin{itemize}
+    \item 国内生产总值（GDP）：在某一既定时期一个国家内生产的所有最终物品与劳务的市场价值。
+\end{itemize}
+
+\subsection*{GDP的组成部分（支出法）}
+\begin{itemize}
+    \item GDP (Y) 是以下项目之和：
+    \[ Y = C + I + G + NX \]
+    \item 消费 (C)：家庭用于物品与劳务的支出。
+    \item 投资 (I)：用于资本设备、存货和建筑物的支出。
+    \item 政府购买 (G)：各级政府用于物品与劳务的支出。
+    \item 净出口 (NX)：出口减进口。
+\end{itemize}
+
+\subsection*{真实GDP与名义GDP}
+\begin{itemize}
+    \item 名义GDP：按现期价格计算的物品与劳务产出的价值量。
+    \item 真实GDP：按不变的基年价格计算的物品与劳务产出的价值量。
+\end{itemize}
+
+\subsection*{GDP平减指数}
+\begin{itemize}
+    \item 衡量相对于基年价格的现期物价水平。
+    \[ \text{GDP平减指数} = \left( \frac{\text{名义GDP}}{\text{真实GDP}} \right) \times 100 \]
+\end{itemize}
+
+\section*{III. 生活费用的衡量}
+\subsection*{通货膨胀与消费物价指数}
+\begin{itemize}
+    \item 通货膨胀：物价总水平上升。
+    \item 消费物价指数 (CPI)：衡量普通消费者所购买的物品与劳务的总费用。
+\end{itemize}
+
+\subsection*{CPI的计算}
+\begin{itemize}
+    \item 固定篮子：确定普通消费者购买的一篮子物品与劳务。
+    \item 找出价格：找出每个时点上篮子中每种物品与劳务的价格。
+    \item 计算这一篮子东西的费用：用价格数据计算不同时点一篮子物品与劳务的费用。
+    \item 选择基年并计算指数：
+    \[ \text{消费者价格指数(CPI)} = \left( \frac{\text{当年一篮子物品与服务的价格}}{\text{基年一篮子物品与服务的价格}} \right) \times 100 \]
+    \item 计算通货膨胀率：
+    \[ \text{通货膨胀率} = \left( \frac{\text{第二年的CPI} - \text{第一年的CPI}}{\text{第一年的CPI}} \right) \times 100\% \]
+\end{itemize}
+
+\subsection*{CPI的问题}
+\begin{itemize}
+    \item 替代倾向：消费者会通过改变购买习惯对此有所反应，而计算物价指数的市场篮子保持不变。
+    \item 新产品的引进：更多的选择本身含有价值，计算消费物价指数的市场篮子并没有反映这种变动。
+    \item 无法衡量的质量变动：商品质量的变化很难衡量。
+\end{itemize}
+
+\subsection*{GDP平减指数与消费物价指数}
+\begin{itemize}
+    \item GDP平减指数反映了国内生产的所有物品与劳务的价格，而CPI反映消费者购买的所有物品与劳务的价格。
+    \item 消费物价指数比较固定的一篮子物品与劳务的价格与基年这一篮子物品与劳务的价格。
+    \item GDP平减指数比较现期生产的物品与劳务的价格与基年同样物品与劳务的价格。
+\end{itemize}
+
+\section*{IV. 实际利率与名义利率}
+\begin{itemize}
+    \item 名义利率：没有根据通货膨胀校正的利率。
+    \item 实际利率：根据通货膨胀校正的利率。
+    \[ \text{实际利率} = \text{名义利率} - \text{通货膨胀率} \]
+\end{itemize}
+
+\end{document}

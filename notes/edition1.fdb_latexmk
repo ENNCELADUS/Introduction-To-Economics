@@ -1,10 +1,10 @@
 # Fdb version 4
-["xdvipdfmx"] 1715581528.32326 "edition1.xdv" "edition1.pdf" "edition1" 1715581530.17138 0
-  "edition1.xdv" 1715581528 250336 55428a0256e27e7069decdde174bc927 "xelatex"
+["xdvipdfmx"] 1716190496.57203 "edition1.xdv" "edition1.pdf" "edition1" 1716190499.30294 0
+  "edition1.xdv" 1716190496 250336 9e64ff59bfc6566be5523c120d0aa5eb "xelatex"
   (generated)
   "edition1.pdf"
   (rewritten before read)
-["xelatex"] 1715581524.69028 "e:/RICHARD/经济学导论/Introduction-To-Economics/notes/edition1.tex" "edition1.xdv" "edition1" 1715581530.14758 0
+["xelatex"] 1716190491.40031 "e:/RICHARD/经济学导论/Introduction-To-Economics/notes/edition1.tex" "edition1.xdv" "edition1" 1716190499.27458 0
   "AFC.png" 1712565197 72603 28c6f79ab20e422e552faf3029528307 ""
   "ATC.png" 1712565871 119816 1b1f5bca56bab1bb64e61fb93751c951 ""
   "AVC.png" 1712565265 104749 e9c47829a049f804d79a5e823ba8e29f ""
@@ -198,10 +198,10 @@
   "D:/LaTeX/tex/xelatex/xecjk/xeCJK.sty" 1659726270 183137 ed372550124703b2b73cbcc0b47cb20f ""
   "D:/LaTeX/tex/xelatex/xecjk/xeCJKfntef.sty" 1659726270 39577 b470f8a1dbecc9c45c9bf05ca7db9188 ""
   "MC.png" 1712565801 169453 c233808d2ee302c280a282084d8a38ec ""
-  "e:/RICHARD/经济学导论/Introduction-To-Economics/notes/edition1.tex" 1715581518 44827 d2414e633d18361e9971f649a4ba7847 ""
-  "edition1.aux" 1715581528 18324 31cf063d30ef9d13b8b8d46d1ece570e "xelatex"
-  "edition1.out" 1715581528 10990 0ad2020ea275c60e827ebff64e0feb56 "xelatex"
-  "edition1.tex" 1715581518 44827 d2414e633d18361e9971f649a4ba7847 ""
+  "e:/RICHARD/经济学导论/Introduction-To-Economics/notes/edition1.tex" 1716190370 44823 2bb3501fd7d9480df9d033278b7660a3 ""
+  "edition1.aux" 1716190496 18324 31cf063d30ef9d13b8b8d46d1ece570e "xelatex"
+  "edition1.out" 1716190496 10990 0ad2020ea275c60e827ebff64e0feb56 "xelatex"
+  "edition1.tex" 1716190370 44823 2bb3501fd7d9480df9d033278b7660a3 ""
   "长期供给曲线.png" 1715532275 151419 e950280eb0b590c28dfeef456a3dcd50 ""
   "长期竞争市场供给曲线.png" 1715568537 235148 d527bc703c9db758b7d9c57b48bc389d ""
   "长期平均总成本.png" 1713714650 53547 9fda3fbbf10e5cb4b805092665d03ca7 ""
